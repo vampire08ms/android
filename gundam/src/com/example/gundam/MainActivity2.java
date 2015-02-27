@@ -22,15 +22,6 @@ public class MainActivity2 extends ActionBarActivity {
 		button = (Button) findViewById(R.id.button2);
 		Test = new customView(this);
 		setContentView(Test);
-		button.setOnClickListener(new View.OnClickListener() {
-
-			@Override
-			public void onClick(View v) {
-				Intent intent = new Intent();
-				intent.setClass(MainActivity2.this, MainActivity.class);
-				startActivity(intent);
-			}
-		});
 	}
 
 	@Override
