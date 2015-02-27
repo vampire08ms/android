@@ -24,17 +24,6 @@ public class MainActivity extends Activity {
 			public void onClick(View v) {
 				// TODO Auto-generated method stub
 
-				// NotificationManager nm = (NotificationManager)
-				// getSystemService(Context.NOTIFICATION_SERVICE);
-				// @SuppressWarnings("deprecation")
-				// Notification n = new Notification(R.drawable.ic_launcher,
-				// "Hello,there!", System.currentTimeMillis());
-				// n.flags = Notification.FLAG_AUTO_CANCEL;
-				//
-				// n.setLatestEventInfo(this, "Hello,there!",
-				// "Hello,there,I'm john.", null);
-				// nm.notify(1, n);
-
 				Intent intent = new Intent();
 				intent.setClass(MainActivity.this, MainActivity2.class);
 				startActivity(intent);
