@@ -20,8 +20,6 @@ public class MainActivity extends Activity implements OnClickListener {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		button = (Button) findViewById(R.id.button1);
-		button.setOnClickListener(this);
-
 	}
 
 	@Override
@@ -47,15 +45,16 @@ public class MainActivity extends Activity implements OnClickListener {
 	@Override
 	public void onClick(View v) {
 
-//		NotificationManager nm = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
-//		@SuppressWarnings("deprecation")
-//		Notification n = new Notification(R.drawable.ic_launcher,
-//				"Hello,there!", System.currentTimeMillis());
-//		n.flags = Notification.FLAG_AUTO_CANCEL;
-//
-//		n.setLatestEventInfo(this, "Hello,there!",
-//				"Hello,there,I'm john.", null);
-//		nm.notify(1, n);
+		// NotificationManager nm = (NotificationManager)
+		// getSystemService(Context.NOTIFICATION_SERVICE);
+		// @SuppressWarnings("deprecation")
+		// Notification n = new Notification(R.drawable.ic_launcher,
+		// "Hello,there!", System.currentTimeMillis());
+		// n.flags = Notification.FLAG_AUTO_CANCEL;
+		//
+		// n.setLatestEventInfo(this, "Hello,there!",
+		// "Hello,there,I'm john.", null);
+		// nm.notify(1, n);
 
 	}
 }
